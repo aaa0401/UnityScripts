@@ -223,7 +223,7 @@ public class Multiplayer : MonoBehaviour
     }
 
     /// <summary>
-    /// スレッド〇す用
+    /// スレッドをkillする
     /// これがないと連続してプレイ時にポートのバインドが解除されていない
     /// </summary>
     private void OnApplicationQuit()
